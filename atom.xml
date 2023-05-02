@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zoug2016</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-05-02T06:59:06.773Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>zoug2016</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>001-ebd_learn_roadmap</title>
+    <link href="http://example.com/2023/05/02/001-ebd-learn-roadmap-md/"/>
+    <id>http://example.com/2023/05/02/001-ebd-learn-roadmap-md/</id>
+    <published>2023-05-02T06:35:20.000Z</published>
+    <updated>2023-05-02T06:59:06.773Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="嵌入式基础必备知识"><a class="markdownIt-Anchor" href="#嵌入式基础必备知识"></a> 嵌入式基础必备知识</h1><h2 id="c语言基础"><a class="markdownIt-Anchor" href="#c语言基础"></a> C语言基础</h2><p>三大语法结构、常用的数据类型、函数、结构体、指针、文件操作</p><h2 id="数据结构"><a class="markdownIt-Anchor" href="#数据结构"></a> 数据结构</h2><p>数组、队列、链表、堆栈、树、图、散列表等</p><h2 id="计算机原理"><a class="markdownIt-Anchor" href="#计算机原理"></a> 计算机原理</h2><p>数据表示和运算、存储系统、指令系统、总线系统、中央处理器、输入输出系统等</p><h2 id="操作系统"><a class="markdownIt-Anchor" href="#操作系统"></a> 操作系统</h2><p>进程管理、内存管理、文件管理、输入输出管理等</p><h2 id="硬件基础知识"><a class="markdownIt-Anchor" href="#硬件基础知识"></a> 硬件基础知识</h2><p>电路基础知识、数电模电基础知识、常用的电子元器件等</p><h1 id="cpu"><a class="markdownIt-Anchor" href="#cpu"></a> CPU</h1><h2 id="单片机"><a class="markdownIt-Anchor" href="#单片机"></a> 单片机</h2><p>51单片机<br />软件：认识单片机、熟悉逻辑运算、点亮一颗LED灯、按键检测、串口通信、定时器、中断<br />硬件：电阻元器件了解，基本模块电路了解，时钟电路，尝试绘制51单片机原理图和PCB</p><h2 id="arm处理器"><a class="markdownIt-Anchor" href="#arm处理器"></a> ARM处理器</h2><p>STM32<br />● 基础练习<br />主要练习：点亮LED灯、GPIO的输入输出操作、中断操作、UART通信、IIC通信等<br />● 进阶练习<br />主要练习：DMA通信、SPI通信、CAN通信、LCD显示屏，ADC等<br />● 高阶练习<br />主要学习：STM32时钟架构、总线架构、电源管理、代码框架、SDIO通信、USB通信等。<br />● 学习建议及资料<br />STM32会有寄存器和库函数两个版本，建议交叉学习，理解会更加深刻推荐正点原子、野火的STM32F103或者STM32F407系列<br />Cortex-M<br />Cortex-R<br />Cortex-A<br />Zynq7020<br />ZYNQ领航者V2开发板 <a href="http://www.openedv.com/docs/boards/fpga/zdyz_linhanz(V2).html">http://www.openedv.com/docs/boards/fpga/zdyz_linhanz(V2).html</a><br />RK3288<br /><a href="https://www.t-firefly.com/product/rk3288.html">https://www.t-firefly.com/product/rk3288.html</a><br />RK3399<br /><a href="https://www.t-firefly.com/product/rk3399.html">https://www.t-firefly.com/product/rk3399.html</a><br />香橙派<a href="http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/index.html">http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/index.html</a></p><p><a href="http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-R1-Plus-LTS.html">http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-R1-Plus-LTS.html</a></p><h1 id="硬件通信接口"><a class="markdownIt-Anchor" href="#硬件通信接口"></a> 硬件通信接口</h1><p>UART<br />TTL、RS232/RS485/RS422<br />I2C<br />SPI/QPSI<br />ADC<br />PWM<br />CAN/CANFD<br />USB<br />ethernet<br />PCI/PCIE</p><h1 id="rtos"><a class="markdownIt-Anchor" href="#rtos"></a> RTOS</h1><p>RTOS，实时操作系统，可以理解为STM32与Linux之间的桥梁，由于其实现思想大都取之于Linux，所以也称之为精简版的Linux。<br />常用的实时操作系统有：UCOS，VxWork，FreeRTOS，RT-Thread</p><p>移植RTOS系统、多任务管理、调度算法、消息队列、信号量互斥量、事件、内存管理等。<br />FreeRTOS<br />● FreeRTOS官网<a href="https://www.freertos.org/">https://www.freertos.org/</a><br />● FreeRTOS github源码<br />FreeRTOS™ is a market leading RTOS from Amazon Web Services  ，包括FreeRTOS的所有工程<br /><a href="https://github.com/freertos">https://github.com/freertos</a></p><p>FreeRTOS的工程源码，包括demo和kernel【submodule】<br /><a href="https://github.com/FreeRTOS/FreeRTOS">https://github.com/FreeRTOS/FreeRTOS</a></p><p>FreeRTOS kernel源码<br /><a href="https://github.com/FreeRTOS/FreeRTOS-Kernel">https://github.com/FreeRTOS/FreeRTOS-Kernel</a></p><p>发布的demo和kernel一起的源码版本<br /><a href="https://github.com/FreeRTOS/FreeRTOS/releases">https://github.com/FreeRTOS/FreeRTOS/releases</a></p><p>● 欢迎阅读韦东山百问网freeRTOS教程！    <a href="http://rtos.100ask.org/freeRTOS%E6%95%99%E7%A8%8B/index.htmlhttps://www.bilibili.com/video/BV1844y1g7ud?p=1">http://rtos.100ask.org/freeRTOS教程/index.htmlhttps://www.bilibili.com/video/BV1844y1g7ud?p=1</a></p><h1 id="linux"><a class="markdownIt-Anchor" href="#linux"></a> Linux</h1><p>包括Linux基础篇，Linux开发<br />Linux开发又分为应用开发，驱动开发，内核开发</p><h2 id="linux基础篇"><a class="markdownIt-Anchor" href="#linux基础篇"></a> Linux基础篇</h2><p>Linux常用命令、VIM学习、Linux的Shell编程、GCC编译、Makefile等</p><h2 id="应用开发"><a class="markdownIt-Anchor" href="#应用开发"></a> 应用开发</h2><p>嵌入式linux应用编程、存储、网络管理、QT编程、TCP/IP协议、HTTP协议等</p><h2 id="驱动开发"><a class="markdownIt-Anchor" href="#驱动开发"></a> 驱动开发</h2><p>内核模块编译原理、字符设备驱动框架、平台设备驱动、设备树、Pinctrl子系统、I2C子系统、中断子系统、块设备驱动框架、Bootloader等</p><h2 id="内核开发"><a class="markdownIt-Anchor" href="#内核开发"></a> 内核开发</h2><p>系统调用、存储管理、进程管理、内存管理、文件管理等</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;嵌入式基础必备知识&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#嵌入式基础必备知识&quot;&gt;&lt;/a&gt; 嵌入式基础必备知识&lt;/h1&gt;
+&lt;h2 id=&quot;c语言基础&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c语言</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2023/05/02/hello-world/"/>
+    <id>http://example.com/2023/05/02/hello-world/</id>
+    <published>2023-05-02T06:13:17.035Z</published>
+    <updated>2023-05-02T06:13:17.035Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
