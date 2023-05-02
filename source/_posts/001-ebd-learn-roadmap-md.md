@@ -1,5 +1,5 @@
 ---
-title: 001-ebd_learn_roadmap.md
+title: 001-ebd_learn_roadmap
 date: 2023-05-02 14:35:20
 tags:
 ---

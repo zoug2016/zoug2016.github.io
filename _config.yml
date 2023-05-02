@@ -3,12 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: zoug2016
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: zoug2016
+language: zh-CN
+# language: en
 timezone: ''
 
 # URL
@@ -97,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +106,37 @@ deploy:
   type: git
   repository: git@github.com:zoug2016/zoug2016.github.io.git
   branch: master
+
+# hexo-neat
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:  
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js' 
+
+# markdown_it_plus:
+#   highlight: true
+#   html: true
+#   xhtmlOut: true
+#   breaks: true
+#   langPrefix:
+#   linkify: true
+#   typographer:
+#   quotes: “”‘’
+#   plugins:
+#     - plugin:
+#         name: markdown-it-katex
+#         enable: true
+#     - plugin:
+#         name: markdown-it-mark
+#         enable: false
