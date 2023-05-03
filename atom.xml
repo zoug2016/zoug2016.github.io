@@ -3,11 +3,11 @@
   <title>zoug2016</title>
   
   <subtitle>blog</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://zoug2016.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://zoug2016.github.io/"/>
   <updated>2023-05-03T03:50:34.772Z</updated>
-  <id>http://example.com/</id>
+  <id>https://zoug2016.github.io/</id>
   
   <author>
     <name>zoug2016</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>003-hexo-front-matter-rules</title>
-    <link href="http://example.com/2023/05/03/003-hexo-front-matter-rules/"/>
-    <id>http://example.com/2023/05/03/003-hexo-front-matter-rules/</id>
+    <link href="https://zoug2016.github.io/2023/05/03/003-hexo-front-matter-rules/"/>
+    <id>https://zoug2016.github.io/2023/05/03/003-hexo-front-matter-rules/</id>
     <published>2023-05-03T02:07:59.000Z</published>
     <updated>2023-05-03T03:50:34.772Z</updated>
     
@@ -35,17 +35,17 @@
     
     
     
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
+    <category term="hexo" scheme="https://zoug2016.github.io/categories/hexo/"/>
     
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://zoug2016.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>002-ebd-basic-books</title>
-    <link href="http://example.com/2023/05/03/002-ebd-basic-books/"/>
-    <id>http://example.com/2023/05/03/002-ebd-basic-books/</id>
+    <link href="https://zoug2016.github.io/2023/05/03/002-ebd-basic-books/"/>
+    <id>https://zoug2016.github.io/2023/05/03/002-ebd-basic-books/</id>
     <published>2023-05-03T01:31:04.000Z</published>
     <updated>2023-05-03T03:45:42.003Z</updated>
     
@@ -60,19 +60,19 @@
     
     
     
-    <category term="ebd" scheme="http://example.com/categories/ebd/"/>
+    <category term="ebd" scheme="https://zoug2016.github.io/categories/ebd/"/>
     
-    <category term="books" scheme="http://example.com/categories/ebd/books/"/>
+    <category term="books" scheme="https://zoug2016.github.io/categories/ebd/books/"/>
     
     
-    <category term="books" scheme="http://example.com/tags/books/"/>
+    <category term="books" scheme="https://zoug2016.github.io/tags/books/"/>
     
   </entry>
   
   <entry>
     <title>001-ebd_learn_roadmap</title>
-    <link href="http://example.com/2023/05/02/001-ebd-learn-roadmap-md/"/>
-    <id>http://example.com/2023/05/02/001-ebd-learn-roadmap-md/</id>
+    <link href="https://zoug2016.github.io/2023/05/02/001-ebd-learn-roadmap-md/"/>
+    <id>https://zoug2016.github.io/2023/05/02/001-ebd-learn-roadmap-md/</id>
     <published>2023-05-02T06:35:20.000Z</published>
     <updated>2023-05-03T03:44:25.294Z</updated>
     
@@ -92,8 +92,8 @@
   
   <entry>
     <title>000 Hello World</title>
-    <link href="http://example.com/2023/05/01/000-hello-world/"/>
-    <id>http://example.com/2023/05/01/000-hello-world/</id>
+    <link href="https://zoug2016.github.io/2023/05/01/000-hello-world/"/>
+    <id>https://zoug2016.github.io/2023/05/01/000-hello-world/</id>
     <published>2023-05-01T06:35:20.000Z</published>
     <updated>2023-05-03T03:44:59.990Z</updated>
     

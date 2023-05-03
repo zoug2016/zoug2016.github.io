@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2023/05/03/003-hexo-front-matter-rules/</loc>
+    <loc>https://zoug2016.github.io/about/index.html</loc>
     
     <lastmod>2023-05-03</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/05/03/002-ebd-basic-books/</loc>
+    <loc>https://zoug2016.github.io/2023/05/03/003-hexo-front-matter-rules/</loc>
     
     <lastmod>2023-05-03</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/05/01/000-hello-world/</loc>
+    <loc>https://zoug2016.github.io/2023/05/03/002-ebd-basic-books/</loc>
     
     <lastmod>2023-05-03</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/05/02/001-ebd-learn-roadmap-md/</loc>
+    <loc>https://zoug2016.github.io/2023/05/01/000-hello-world/</loc>
     
     <lastmod>2023-05-03</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://zoug2016.github.io/2023/05/02/001-ebd-learn-roadmap-md/</loc>
     
     <lastmod>2023-05-03</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://zoug2016.github.io/tags/index.html</loc>
     
     <lastmod>2023-05-03</lastmod>
     
@@ -56,9 +56,9 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>https://zoug2016.github.io/categories/index.html</loc>
     
-    <lastmod>2023-05-02</lastmod>
+    <lastmod>2023-05-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -66,7 +66,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://zoug2016.github.io/</loc>
     <lastmod>2023-05-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -74,14 +74,14 @@
 
   
   <url>
-    <loc>http://example.com/tags/books/</loc>
+    <loc>https://zoug2016.github.io/tags/books/</loc>
     <lastmod>2023-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/hexo/</loc>
+    <loc>https://zoug2016.github.io/tags/hexo/</loc>
     <lastmod>2023-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -90,21 +90,21 @@
 
   
   <url>
-    <loc>http://example.com/categories/ebd/</loc>
+    <loc>https://zoug2016.github.io/categories/ebd/</loc>
     <lastmod>2023-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/hexo/</loc>
+    <loc>https://zoug2016.github.io/categories/hexo/</loc>
     <lastmod>2023-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/ebd/books/</loc>
+    <loc>https://zoug2016.github.io/categories/ebd/books/</loc>
     <lastmod>2023-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
