@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zoug2016.github.io/2023/05/02/001-ebd-learn-roadmap-md/</loc>
+    
+    <lastmod>2023-05-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zoug2016.github.io/2023/05/03/002-ebd-basic-books/</loc>
     
     <lastmod>2023-05-03</lastmod>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>https://zoug2016.github.io/2023/05/01/000-hello-world/</loc>
-    
-    <lastmod>2023-05-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zoug2016.github.io/2023/05/02/001-ebd-learn-roadmap-md/</loc>
     
     <lastmod>2023-05-03</lastmod>
     
@@ -82,6 +82,13 @@
   
   <url>
     <loc>https://zoug2016.github.io/tags/hexo/</loc>
+    <lastmod>2023-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zoug2016.github.io/tags/ebd/</loc>
     <lastmod>2023-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
