@@ -1,3 +1,4 @@
+https://zoug2016.github.io/2023/05/03/004-freertos-mpu-cm3-demo/
 https://zoug2016.github.io/2023/05/02/001-ebd-learn-roadmap-md/
 https://zoug2016.github.io/2023/05/03/002-ebd-basic-books/
 https://zoug2016.github.io/about/index.html
@@ -9,6 +10,10 @@ https://zoug2016.github.io/
 https://zoug2016.github.io/tags/books/
 https://zoug2016.github.io/tags/hexo/
 https://zoug2016.github.io/tags/ebd/
+https://zoug2016.github.io/tags/freertos/
+https://zoug2016.github.io/tags/mpu/
 https://zoug2016.github.io/categories/ebd/
 https://zoug2016.github.io/categories/hexo/
 https://zoug2016.github.io/categories/ebd/books/
+https://zoug2016.github.io/categories/freertos/
+https://zoug2016.github.io/categories/mpu/

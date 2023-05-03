@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zoug2016.github.io/2023/05/03/004-freertos-mpu-cm3-demo/</loc>
+    
+    <lastmod>2023-05-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zoug2016.github.io/2023/05/02/001-ebd-learn-roadmap-md/</loc>
     
     <lastmod>2023-05-03</lastmod>
@@ -94,6 +103,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://zoug2016.github.io/tags/freertos/</loc>
+    <lastmod>2023-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zoug2016.github.io/tags/mpu/</loc>
+    <lastmod>2023-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -112,6 +135,20 @@
   
   <url>
     <loc>https://zoug2016.github.io/categories/ebd/books/</loc>
+    <lastmod>2023-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zoug2016.github.io/categories/freertos/</loc>
+    <lastmod>2023-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zoug2016.github.io/categories/mpu/</loc>
     <lastmod>2023-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
