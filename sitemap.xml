@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zoug2016.github.io/2023/05/31/006-hexo-basic/</loc>
+    
+    <lastmod>2023-05-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zoug2016.github.io/2023/05/05/005-c-pointer-summary/</loc>
     
     <lastmod>2023-05-05</lastmod>
@@ -85,7 +94,7 @@
 
   <url>
     <loc>https://zoug2016.github.io/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,42 +102,42 @@
   
   <url>
     <loc>https://zoug2016.github.io/tags/books/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zoug2016.github.io/tags/hexo/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zoug2016.github.io/tags/ebd/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zoug2016.github.io/tags/freertos/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zoug2016.github.io/tags/mpu/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zoug2016.github.io/tags/c/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -137,49 +146,49 @@
   
   <url>
     <loc>https://zoug2016.github.io/categories/ebd/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zoug2016.github.io/categories/hexo/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zoug2016.github.io/categories/ebd/books/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zoug2016.github.io/categories/freertos/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zoug2016.github.io/categories/mpu/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zoug2016.github.io/categories/c/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zoug2016.github.io/categories/c/c-pointer/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
