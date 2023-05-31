@@ -1,3 +1,4 @@
+https://zoug2016.github.io/2023/06/01/007-nodejs-start/
 https://zoug2016.github.io/2023/05/31/006-hexo-basic/
 https://zoug2016.github.io/2023/05/05/005-c-pointer-summary/
 https://zoug2016.github.io/2023/05/03/004-freertos-mpu-cm3-demo/
@@ -15,6 +16,7 @@ https://zoug2016.github.io/tags/ebd/
 https://zoug2016.github.io/tags/freertos/
 https://zoug2016.github.io/tags/mpu/
 https://zoug2016.github.io/tags/c/
+https://zoug2016.github.io/tags/nodejs/
 https://zoug2016.github.io/categories/ebd/
 https://zoug2016.github.io/categories/hexo/
 https://zoug2016.github.io/categories/ebd/books/
@@ -22,3 +24,4 @@ https://zoug2016.github.io/categories/freertos/
 https://zoug2016.github.io/categories/mpu/
 https://zoug2016.github.io/categories/c/
 https://zoug2016.github.io/categories/c/c-pointer/
+https://zoug2016.github.io/categories/nodejs/

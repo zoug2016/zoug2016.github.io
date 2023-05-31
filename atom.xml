@@ -6,7 +6,7 @@
   <link href="https://zoug2016.github.io/atom.xml" rel="self"/>
   
   <link href="https://zoug2016.github.io/"/>
-  <updated>2023-05-31T15:57:29.130Z</updated>
+  <updated>2023-05-31T16:45:39.373Z</updated>
   <id>https://zoug2016.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>007-nodejs-start</title>
+    <link href="https://zoug2016.github.io/2023/06/01/007-nodejs-start/"/>
+    <id>https://zoug2016.github.io/2023/06/01/007-nodejs-start/</id>
+    <published>2023-05-31T16:18:40.000Z</published>
+    <updated>2023-05-31T16:45:39.373Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world"></a>hello world</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">//hello world</span></span><br><span class="line"><span class="keyword">var</span> hello = <span class="string">&#x27;Hello world!&#x27;</span>;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(hello);</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>保存为hello.js</p><h1 id="执行"><a href="#执行" class="headerlink" title="执行"></a>执行</h1><blockquote><p>node hello.js</p></blockquote><p><img src="/2023/06/01/007-nodejs-start/image-20230601002244899.png" alt="image-20230601002244899"></p><h1 id="执行时传递参数"><a href="#执行时传递参数" class="headerlink" title="执行时传递参数"></a>执行时传递参数</h1><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> <span class="variable language_">arguments</span> = process.<span class="property">argv</span>.<span class="title function_">splice</span>(<span class="number">2</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;所传递的参数是：&#x27;</span>, <span class="variable language_">arguments</span>);</span><br></pre></td></tr></table></figure><p>输出：</p><blockquote><p>所传递的参数是： [ ‘a’, ‘b’, ‘c’ ]</p></blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">process.<span class="property">argv</span>.<span class="title function_">forEach</span>(<span class="keyword">function</span> (<span class="params">val, index, array</span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(index + <span class="string">&#x27;: &#x27;</span> + val);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><p>输出：</p><p><img src="/2023/06/01/007-nodejs-start/image-20230601003456476.png" alt="image-20230601003456476"></p><p>从命令行接收参数所传递进来的值</p><p>tj大神的commander.js</p><p><a href="https://github.com/visionmedia/commander.js">https://github.com/visionmedia/commander.js</a></p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/env node</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Module dependencies.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">var</span> program = <span class="built_in">require</span>(<span class="string">&#x27;commander&#x27;</span>);</span><br><span class="line"> </span><br><span class="line">program</span><br><span class="line">  .<span class="title function_">version</span>(<span class="string">&#x27;0.0.1&#x27;</span>)</span><br><span class="line">  .<span class="title function_">option</span>(<span class="string">&#x27;-p, --peppers&#x27;</span>, <span class="string">&#x27;Add peppers&#x27;</span>)</span><br><span class="line">  .<span class="title function_">option</span>(<span class="string">&#x27;-P, --pineapple&#x27;</span>, <span class="string">&#x27;Add pineapple&#x27;</span>)</span><br><span class="line">  .<span class="title function_">option</span>(<span class="string">&#x27;-b, --bbq&#x27;</span>, <span class="string">&#x27;Add bbq sauce&#x27;</span>)</span><br><span class="line">  .<span class="title function_">option</span>(<span class="string">&#x27;-c, --cheese [type]&#x27;</span>, <span class="string">&#x27;Add the specified type of cheese [marble]&#x27;</span>, <span class="string">&#x27;marble&#x27;</span>)</span><br><span class="line">  .<span class="title function_">parse</span>(process.<span class="property">argv</span>);</span><br><span class="line"> </span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;you ordered a pizza with:&#x27;</span>);</span><br><span class="line"><span class="keyword">if</span> (program.<span class="property">peppers</span>) <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;  - peppers&#x27;</span>);</span><br><span class="line"><span class="keyword">if</span> (program.<span class="property">pineapple</span>) <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;  - pineapple&#x27;</span>);</span><br><span class="line"><span class="keyword">if</span> (program.<span class="property">bbq</span>) <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;  - bbq&#x27;</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;  - %s cheese&#x27;</span>, program.<span class="property">cheese</span>);</span><br></pre></td></tr></table></figure><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://dev.nodejs.cn/learn/">Node.js 简介 (nodejs.cn)</a></p><p><a href="https://www.runoob.com/nodejs/nodejs-tutorial.html">Node.js 教程 | 菜鸟教程 (runoob.com)</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;hello-world&quot;&gt;&lt;a href=&quot;#hello-world&quot; class=&quot;headerlink&quot; title=&quot;hello world&quot;&gt;&lt;/a&gt;hello world&lt;/h1&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;</summary>
+      
+    
+    
+    
+    <category term="nodejs" scheme="https://zoug2016.github.io/categories/nodejs/"/>
+    
+    
+    <category term="nodejs" scheme="https://zoug2016.github.io/tags/nodejs/"/>
+    
+  </entry>
   
   <entry>
     <title>006-hexo-basic</title>

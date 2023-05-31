@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zoug2016.github.io/2023/06/01/007-nodejs-start/</loc>
+    
+    <lastmod>2023-05-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zoug2016.github.io/2023/05/31/006-hexo-basic/</loc>
     
     <lastmod>2023-05-31</lastmod>
@@ -142,6 +151,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://zoug2016.github.io/tags/nodejs/</loc>
+    <lastmod>2023-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -188,6 +204,13 @@
   
   <url>
     <loc>https://zoug2016.github.io/categories/c/c-pointer/</loc>
+    <lastmod>2023-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zoug2016.github.io/categories/nodejs/</loc>
     <lastmod>2023-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
