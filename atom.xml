@@ -6,7 +6,7 @@
   <link href="https://zoug2016.github.io/atom.xml" rel="self"/>
   
   <link href="https://zoug2016.github.io/"/>
-  <updated>2023-05-31T16:45:39.373Z</updated>
+  <updated>2023-05-31T17:07:45.706Z</updated>
   <id>https://zoug2016.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>008-windows-batch</title>
+    <link href="https://zoug2016.github.io/2023/06/01/008-windows-batch/"/>
+    <id>https://zoug2016.github.io/2023/06/01/008-windows-batch/</id>
+    <published>2023-05-31T16:55:11.000Z</published>
+    <updated>2023-05-31T17:07:45.706Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h1 id="打开windows批处理大门-知乎-zhihu-com"><a href="#打开windows批处理大门-知乎-zhihu-com" class="headerlink" title="打开windows批处理大门 - 知乎 (zhihu.com)"></a><a href="https://zhuanlan.zhihu.com/p/367490411">打开windows批处理大门 - 知乎 (zhihu.com)</a></h1><h1 id="Windows-批处理脚本指南：引言-简书-jianshu-com"><a href="#Windows-批处理脚本指南：引言-简书-jianshu-com" class="headerlink" title="Windows 批处理脚本指南：引言 - 简书 (jianshu.com)"></a><a href="https://www.jianshu.com/p/dbb7b13c5ed8">Windows 批处理脚本指南：引言 - 简书 (jianshu.com)</a></h1><p>英文原文：<a href="http://steve-jansen.github.io/guides/windows-batch-scripting/">Guide to Windows Batch Scripting - &#x2F;* steve jansen *&#x2F; (steve-jansen.github.io)</a></p><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><h3 id="Why-Windows？"><a href="#Why-Windows？" class="headerlink" title="Why Windows？"></a>Why Windows？</h3><h3 id="Why-DOS-style-Batch-Files"><a href="#Why-DOS-style-Batch-Files" class="headerlink" title="Why DOS-style Batch Files?"></a>Why DOS-style Batch Files?</h3><p><img src="/2023/06/01/008-windows-batch/image-20230601010242725.png" alt="image-20230601010242725"></p><h1 id="批处理入门手册-w3cschool"><a href="#批处理入门手册-w3cschool" class="headerlink" title="批处理入门手册_w3cschool"></a><a href="https://www.w3cschool.cn/pclrmsc/">批处理入门手册_w3cschool</a></h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h1&gt;&lt;h1 id=&quot;打开windows批处理大门-知乎-zhihu-com&quot;&gt;&lt;a href=&quot;#打开windows批处理大门-知乎-zhihu-com&quot; class</summary>
+      
+    
+    
+    
+    <category term="cmd" scheme="https://zoug2016.github.io/categories/cmd/"/>
+    
+    
+    <category term="cmd" scheme="https://zoug2016.github.io/tags/cmd/"/>
+    
+  </entry>
   
   <entry>
     <title>007-nodejs-start</title>
